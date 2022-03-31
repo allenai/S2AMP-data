@@ -3,23 +3,23 @@ Dataset for S2AMP including training/classification and inference data
 
 ````
 S2AMP-data/
-├── gold
-│   ├── first_stage_features
-│   │   ├── test.csv
-│   │   ├── train.csv
-│   │   └── val.csv
-│   ├── lgb_first.stage.model.pkl
-│   ├── lgb_second.stage.model.pkl
-│   ├── S2AMP_matched_pairs.csv
-│   └── second_stage_features
-│       ├── test.csv
-│       ├── train.csv
-│       └── val.csv
-└── inferred
-    ├── mentors_s2_fos_scores.csv
-    └── s2amp_predictions_with_names.csv
+├── [2.1G]  gold
+│   ├── [812M]  first_stage_features
+│   │   ├── [163M]  test.csv
+│   │   ├── [485M]  train.csv
+│   │   └── [164M]  val.csv
+│   ├── [6.6M]  lgb_first.stage.model.pkl
+│   ├── [6.3M]  lgb_second.stage.model.pkl
+│   ├── [ 15M]  S2AMP_matched_pairs.csv
+│   └── [1.3G]  second_stage_features
+│       ├── [269M]  test.csv
+│       ├── [817M]  train.csv
+│       └── [272M]  val.csv
+└── [9.4G]  inferred
+    ├── [1.3G]  mentors_s2_fos_scores.csv
+    └── [8.1G]  s2amp_predictions_with_names.csv
 
-4 directories, 11 files
+  12G used in 4 directories, 11 files
 ````
 
 ### S2AMP Gold
