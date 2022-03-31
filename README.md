@@ -22,7 +22,7 @@ S2AMP-data/
 4 directories, 11 files
 ````
 
-###**S2AMP Gold**
+###S2AMP Gold
 - Mentor Mentee true pairs with S2 ids.
   - `S2AMP_matched_pairs.csv`
     - _mentee_ai2_id_
@@ -54,7 +54,7 @@ More details about the features are in `README_features.md`
   - `lgb_second.stage.model.pkl`
 
 
-###**S2AMP Inferred**
+###S2AMP Inferred
 - Mentor-mentee pairs with scores
   - `s2amp_predictions_with_names.csv`
     - _mentee_ai2id_
