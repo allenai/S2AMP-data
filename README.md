@@ -82,4 +82,4 @@ More details about the features are in `README_features.md`
 To obtain the S2AMP dataset, run the following command:
 [Expected download size is: 12 GiB]
 
-aws s3 sync --no-sign-request s3://ai2-s2-research-public/s2amp-data/ data/
+aws s3 sync --no-sign-request s3://ai2-s2-research-public/s2amp/ data/
