@@ -45,7 +45,8 @@ S2AMP Gold
     - `second_stage_features/train.csv`
     - `second_stage_features/val.csv`
     - `second_stage_features/test.csv`
-  
+
+More details about the features are in `README_features.md`
 
 - First stage model : LightGBM model trained on `first_stage_features`
   - `lgb_first.stage.model.pkl`
