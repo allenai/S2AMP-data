@@ -18,6 +18,9 @@ S2AMP Gold
   - `first_stage_features/test.csv`
     - _is_mentor_ : flag for true pair(1) and false pair(0)
 - Second Stage Train data
+  - `second_stage_features/train.csv`
+  - `second_stage_features/val.csv`
+  - `second_stage_features/test.csv`
 - first stage model
 - second stage model
 
