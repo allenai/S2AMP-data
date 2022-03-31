@@ -41,7 +41,7 @@ s2amp-data/
     - `first_stage_features/val.csv`
     - `first_stage_features/test.csv`
       
-  - Second Stage Train data
+  - Second Stage
     - `second_stage_features/train.csv`
     - `second_stage_features/val.csv`
     - `second_stage_features/test.csv`
@@ -73,8 +73,8 @@ More details about the features are in `README_features.md`
     - _mentorship_score_mean_ : mean of mentorship scores
     - _menteeship_score_ : sum of menteeship scores from mentorship graph 
     - _menteeship_score_mean_ : mean of menteeship scores
-    - _mentee_count_ : count of mentee's mentored 
-    - _mentor_count_ : count of mentor's of the author
+    - _mentee_count_ : count of mentees mentored 
+    - _mentor_count_ : count of mentors of the author
     - _fos_ : field of study of the author
     - _log_mentee_count_
     
