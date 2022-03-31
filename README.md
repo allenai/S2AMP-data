@@ -2,7 +2,7 @@
 Dataset for S2AMP including training/classification and inference data
 
 ````
-S2AMP-data/
+s2amp-data/
 ├── [2.1G]  gold
 │   ├── [812M]  first_stage_features
 │   │   ├── [163M]  test.csv
