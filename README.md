@@ -1,8 +1,30 @@
 # S2AMP-data
 Dataset for S2AMP including training/classification and inference data
 
+### Download Instructions
+To obtain the S2AMP dataset, run the following command:
+[Expected download size is: ~160 GiB]
+
+```bash
+aws s3 sync --no-sign-request s3://ai2-s2-research-public/s2amp/ data/
 ````
-s2amp-data/
+
+The data has been explored in the notebook `S2AMP_demo.ipynb` included in this repo
+
+
+### Running the notebook
+```bash
+conda create -n s2amp python=3.7.10
+conda activate s2amp
+pip install -r requirements.txt
+```
+
+The notebook will download required data from the s3 bucket.
+
+### Details about the dataset
+
+````
+s2amp/
 ├── [2.1G]  gold
 │   ├── [812M]  first_stage_features
 │   │   ├── [163M]  test.csv
@@ -18,8 +40,12 @@ s2amp-data/
 └── [9.4G]  inferred
     ├── [1.3G]  mentors_s2_fos_scores.csv
     └── [8.1G]  s2amp_predictions_with_names.csv
-
-  12G used in 4 directories, 11 files
+    └── [ 52G]  first_stage_features
+        └── [203M]  features.0.csv
+    └── [ 94G]  second_stage_features
+        └── [129M]  features.0.csv
+              
+  160G used
 ````
 
 ### S2AMP Gold
@@ -78,9 +104,11 @@ More details about the features are in `README_features.md`
     - _fos_ : field of study of the author
     - _log_mentee_count_
     
-### Download Instructions
-To obtain the S2AMP dataset, run the following command:
-[Expected download size is: 12 GiB]
 
-`aws s3 sync --no-sign-request s3://ai2-s2-research-public/s2amp/ data/
-`
+`first_stage_features/features.0.csv` and `second_stage_features/features.0.csv` are the features for all mentor mentee
+pairs in Semantic Scholar. 
+
+Quicks stats about the S2 features data -
+- Number of mentor-mentee pairs : 137 million
+- Number of scholars : 24 million
+- Feature count : 65
