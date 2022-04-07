@@ -13,11 +13,11 @@ The data has been explored in the notebook `S2AMP_demo.ipynb` included in this r
 
 
 ### Running the notebook
-```bash
+````
 conda create -n s2amp python=3.7.10
 conda activate s2amp
 pip install -r requirements.txt
-```
+````
 
 The notebook will download required data from the s3 bucket.
 
