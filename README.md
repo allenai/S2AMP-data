@@ -42,8 +42,12 @@ s2amp/
     └── [8.1G]  s2amp_predictions_with_names.csv
     └── [ 52G]  first_stage_features
         └── [203M]  features.0.csv
+        └── [203M]  features...csv
+        └── [144M]  features.199.csv
     └── [ 94G]  second_stage_features
         └── [129M]  features.0.csv
+        └── [129M]  features...csv
+        └── [71M]  features.799.csv
               
   160G used
 ````
