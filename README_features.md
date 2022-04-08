@@ -108,5 +108,5 @@ copub : period of copublication
 
 
 P.S. : 
-We extract and keep only the author pairs which have 3 or more publications together -
-- 1 and 2 copubs are too less to make a predict 
+We extract and keep only the author pairs which have 2 or more publications together -
+- 1 copub is too less to make a prediction
