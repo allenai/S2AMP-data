@@ -9,7 +9,7 @@ To obtain the S2AMP dataset, run the following command:
 aws s3 sync --no-sign-request s3://ai2-s2-research-public/s2amp/ data/
 ````
 
-The data has been explored in the notebook `S2AMP_demo.ipynb` included in this repo
+The data has been explored in the notebook `notebooks/S2AMP_demo.ipynb` included in this repo
 
 
 ### Running the notebook
@@ -120,7 +120,7 @@ pairs in Semantic Scholar.
 
 ### Extracting second stage features
 
-`second_stage_features.ipynb`
+`notebooks/second_stage_features.ipynb`
 
 This notebook demonstrates how we extracted second stage features using the first stage features
 and the graph.
