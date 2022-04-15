@@ -52,6 +52,12 @@ s2amp/
   160G used
 ````
 
+###Quicks stats about the inferred S2 features data -
+- Number of mentor-mentee pairs : 137 million
+- Number of scholars : 24 million
+- Feature count : 65
+
+
 ### S2AMP Gold
 - Mentor Mentee true pairs with S2 ids.
   - `S2AMP_matched_pairs.csv`
@@ -112,7 +118,11 @@ More details about the features are in `README_features.md`
 `first_stage_features/features.0.csv` and `second_stage_features/features.0.csv` are the features for all mentor mentee
 pairs in Semantic Scholar. 
 
-Quicks stats about the S2 features data -
-- Number of mentor-mentee pairs : 137 million
-- Number of scholars : 24 million
-- Feature count : 65
+### Extracting second stage features
+
+`second_stage_features.ipynb`
+
+This notebook demonstrates how we extracted second stage features using the first stage features
+and the graph.
+We already include the output data/features from this script; in case if you run this
+make sure the system has enough memory - 120G which is need to load the 200 million node graph.
