@@ -37,7 +37,7 @@ s2amp/
 │       ├── [269M]  test.csv
 │       ├── [817M]  train.csv
 │       └── [272M]  val.csv
-└── [9.4G]  inferred
+└── [155.4G]  inferred
     ├── [1.3G]  mentors_s2_fos_scores.csv
     └── [8.1G]  s2amp_predictions_with_names.csv
     └── [ 52G]  first_stage_features
