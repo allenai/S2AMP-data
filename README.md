@@ -117,12 +117,3 @@ More details about the features are in `README_features.md`
 
 `first_stage_features/features.0.csv` and `second_stage_features/features.0.csv` are the features for all mentor mentee
 pairs in Semantic Scholar. 
-
-### Extracting second stage features
-
-`notebooks/second_stage_features.ipynb`
-
-This notebook demonstrates how we extracted second stage features using the first stage features
-and the graph.
-We already include the output data/features from this script; in case if you run this
-make sure the system has enough memory - 120G which is need to load the 200 million node graph.
