@@ -1,5 +1,5 @@
 eli5==0.11.0
-shap==0.39.0
+shap==0.40.0
 pandas==1.2.4
 joblib==1.1.0
 numpy==1.20.3
