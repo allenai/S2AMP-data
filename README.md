@@ -52,7 +52,7 @@ s2amp/
   160G used
 ````
 
-###Quicks stats about the inferred S2 features data -
+### Quicks stats about the inferred S2 features data -
 - Number of mentor-mentee pairs : 137 million
 - Number of scholars : 24 million
 - Feature count : 65
