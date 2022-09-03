@@ -1,7 +1,27 @@
 # S2AMP-data
-Dataset for S2AMP including training/classification and inference data
+Dataset for S2AMP including training/classification and inference data. This is the dataset repo for "S2AMP: A High-Coverage Dataset of Scholarly Mentorship Inferred from Publications".
 
-### Download Instructions
+##  Citation
+```
+@inproceedings{10.1145/3529372.3533283,
+author = {Rohatgi, Shaurya and Downey, Doug and King, Daniel and Feldman, Sergey},
+title = {S2AMP: A High-Coverage Dataset of Scholarly Mentorship Inferred from Publications},
+year = {2022},
+isbn = {9781450393454},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3529372.3533283},
+doi = {10.1145/3529372.3533283},
+booktitle = {Proceedings of the 22nd ACM/IEEE Joint Conference on Digital Libraries},
+articleno = {44},
+numpages = {5},
+keywords = {mentorship, academic knowledge graph, relationship mining},
+location = {Cologne, Germany},
+series = {JCDL '22}
+}
+```
+
+## Download Instructions
 To obtain the S2AMP dataset, run the following command:
 [Expected download size is: ~160 GiB]
 
