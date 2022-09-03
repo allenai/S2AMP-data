@@ -10,7 +10,7 @@ copub : period of copublication
 - `is_mentor` : is coauthor a mentor
 
 <!-- ![alt-text-1](imgs/image1.jpg "title-1") ![alt-text-2](imgs/image2.jpg "title-2") -->
-!<img src="imgs/image1.jpg" alt="drawing" width="400"/> ! <img src="imgs/image2.jpg" alt="drawing" width="400"/>
+<img src="imgs/image1.jpg" alt="drawing" width="400"/>  <img src="imgs/image2.jpg" alt="drawing" width="400"/>
 
 
 ### Publication count features
