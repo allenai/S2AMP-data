@@ -9,6 +9,10 @@ copub : period of copublication
 - `coa_ai2id` : coauthor ai2id
 - `is_mentor` : is coauthor a mentor
 
+<!-- ![alt-text-1](imgs/image1.jpg "title-1") ![alt-text-2](imgs/image2.jpg "title-2") -->
+!<img src="imgs/image1.jpg" alt="drawing" width="400"/> ! <img src="imgs/image2.jpg" alt="drawing" width="400"/>
+
+
 ### Publication count features
 - `copub_count` : total papers published together 
 - `total_mte_pubs` : total publications of the mentee till copub end date
