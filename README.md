@@ -1,5 +1,7 @@
-# S2AMP-data
+# S2AMP data
 Dataset for S2AMP including training/classification and inference data. This is the dataset repo for "S2AMP: A High-Coverage Dataset of Scholarly Mentorship Inferred from Publications".
+
+![alt text](pipeline.jpg "Pipeline for S2AMP")
 
 ##  Citation
 ```
@@ -20,6 +22,8 @@ location = {Cologne, Germany},
 series = {JCDL '22}
 }
 ```
+![alt text](model.jpg "core idea behind S2AMP")
+
 
 ## Download Instructions
 To obtain the S2AMP dataset, run the following command:
@@ -108,6 +112,10 @@ More details about the features are in `README_features.md`
   - `lgb_first.stage.model.pkl`
 - Second stage model : LightGBM model trained on `second_stage_features`
   - `lgb_second.stage.model.pkl`
+
+[README_features.md](README_features.md) includes details about all the features extracted for each mentor-mentee pair.
+
+![alt text](shap_features.jpg "Pipeline for S2AMP")
 
 
 ### S2AMP Inferred
